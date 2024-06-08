@@ -1,11 +1,16 @@
-import { Button } from "@mui/material";
+import FeatureVideoSection from "@/components/UI/home/feature-video-section/FeatureVideoSection";
+import HeroSection from "@/components/UI/home/hero-section/HeroSection";
+import HobbySection from "@/components/UI/home/hobby-section/HobbySection";
+import WelcomeSection from "@/components/UI/home/welcome-section/WelcomeSection";
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>This is home page</h1>
-      <Button>Text</Button>
-    </div>
+    <>
+      <HeroSection />
+      <WelcomeSection />
+      <HobbySection />
+      <FeatureVideoSection />
+    </>
   );
 };
 
